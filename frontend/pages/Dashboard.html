@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Task Manager - Dashboard</title>
+<link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+
+    <h1>Task Manager</h1>
+
+    <h2>Dashboard</h2>
+
+    <p>Welcome to your Task Manager</p>
+
+    <h3>My Tasks</h3>
+    <form id="task-form">
+        <input 
+             type="text"
+             id="task-input"
+             placeholder="Enter a task">
+             <button type="submit">Add Task</button>
+
+    </form>
+<div class="task-list">
+
+        <div class="task">
+            <p>Learn HTML</p>
+
+            <button class="complete-btn">Complete</button>
+            <button class="delete-btn">Delete</button>
+        </div>
+
+        <div class="task">
+            <p>Learn CSS</p>
+
+            <button class="complete-btn">Complete</button>
+            <button class="delete-btn">Delete</button>
+        </div>
+
+        <div class="task">
+            <p>Build Task Manager</p>
+
+            <button class="complete-btn">Complete</button>
+            <button class="delete-btn">Delete</button>
+        </div>
+
+    </div>
+    
+
+    <a class="logout" href="../index.html">Logout</a>
+<script src="../js/dashboard.js"></script>
+</body>
+
+</html>
